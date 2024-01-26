@@ -15,5 +15,5 @@ client.on('ready', () => {
   }, 400); // Adjust the interval to 700 milliseconds
 });
 
-const token = 'MTE3NzExNzQzNTcwMzM0NTI0Mw.GLIqcL.lqZLHAduRDuDvGgtKedF0y6a7VkCKrQT5Edn0I';
+const token = process.env.TOKEN
 client.login(token);
