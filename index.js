@@ -1,4 +1,5 @@
 const { Client } = require('discord.js-selfbot-v13');
+const webserver = require('./webserver.js')
 
 const client = new Client({
   checkUpdate: false,
