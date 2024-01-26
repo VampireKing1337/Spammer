@@ -6,7 +6,7 @@ const client = new Client({
 
 client.on('ready', () => {
   console.log('Bot is ready!');
-  const channel = client.channels.cache.get('1172119759425392710');
+  const channel = client.channels.cache.get(process.env.CHID);
   setInterval(() => {
     console.log('Sending message at', new Date());
     channel.send("# COSMIC ON TOP")
