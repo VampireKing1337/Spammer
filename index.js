@@ -12,7 +12,7 @@ client.on('ready', () => {
     channel.send("# COSMIC ON TOP")
       .then(() => console.log('Message sent successfully'))
       .catch(error => console.error('Error sending message:', error.message));
-  }, 400); // Adjust the interval to 700 milliseconds
+  }, 1200); // Adjust the interval to 700 milliseconds
 });
 
 const token = process.env.TOKEN
